@@ -3,115 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Welcome to CODA</title>
+    <title>Matrix Security Gateway</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Epilogue:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <a class="logo" href="https://www.coda.school/" target="_blank">
-                <img alt="CODA - école supérieure d'informatique engagée"
-                     class="logo-img"
-                     src="https://cdn.prod.website-files.com/66b3bf6a4399565cefde681e/66b3cb8622ba822b73af8540_logo.svg">
-            </a>
-            <div class="header-wave"></div>
-        </div>
-    </header>
-
-    <main class="main">
-        <section class="symbols-section">
-            <div class="snow-container">
-                <div class="matrix-char" data-char="ﾊ"></div>
-                <div class="matrix-char" data-char="ﾐ"></div>
-                <div class="matrix-char" data-char="ｦ"></div>
-                <div class="matrix-char" data-char="ﾋ"></div>
-                <div class="matrix-char" data-char="ｰ"></div>
-                <div class="matrix-char" data-char="ｳ"></div>
-                <div class="matrix-char" data-char="ｼ"></div>
-                <div class="matrix-char" data-char="ﾅ"></div>
-                <div class="matrix-char" data-char="ﾓ"></div>
-                <div class="matrix-char" data-char="ﾆ"></div>
-                <div class="matrix-char" data-char="ｻ"></div>
-                <div class="matrix-char" data-char="ﾜ"></div>
-                <div class="matrix-char" data-char="ﾘ"></div>
-                <div class="matrix-char" data-char="Z"></div>
-                <div class="matrix-char" data-char="7"></div>
-                <div class="matrix-char" data-char="ｸ"></div>
-                <div class="matrix-char" data-char="3"></div>
-                <div class="matrix-char" data-char="ﾎ"></div>
-                <div class="matrix-char" data-char="8"></div>
-                <div class="matrix-char" data-char="ｾ"></div>
-                <div class="matrix-char" data-char="5"></div>
-                <div class="matrix-char" data-char="ﾉ"></div>
-                <div class="matrix-char" data-char="2"></div>
-                <div class="matrix-char" data-char="ｱ"></div>
-            </div>
-        </section>
-
-        <div class="container">
-            <section class="hero">
-                <h1 class="hero-title">Matrix Security Gateway</h1>
-            </section>
-
-            <section>
-                <div id="success-message" class="success-message" style="display: none;">
-                    <div class="success-message-content">
-                        <p class="success-title">You Breached the Matrix</p>
-                        <p class="success-subtitle">System Access Granted</p>
-                    </div>
-                </div>
-
-                <form id="password-form">
-                    <input
-                            type="text"
-                            id="password-input"
-                            class="matrix-input"
-                            placeholder="Enter access password"
-                            autofocus
-                    />
-                    <button type="submit" class="matrix-button">
-                        Verify Access
-                    </button>
-                </form>
-
-                <div id="results-container" style="display: none;">
-                    <div id="success-result" class="matrix-success" style="display: none;">
-                        <p>Access Granted. Firewall penetration successful.</p>
-                    </div>
-                    <div id="error-result" class="matrix-error" style="display: none;">
-                        <p>Access Denied. Security traces detected...</p>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <div id="portal-overlay" class="portal-hidden">
-        <div class="video-container">
-            <iframe
-                    id="konami-video"
-                    width="853"
-                    height="480"
-                    src=""
-                    data-video-url="https://www.youtube.com/embed/yS0cqXiBZUo?autoplay=1&controls=1&rel=0&modestbranding=1"
-                    title="Présentation de Coda"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-            </iframe>
-        </div>
+<header class="header">
+    <div class="container">
+        <a class="logo" href="https://www.coda.school/" target="_blank">
+            <img alt="CODA - école supérieure d'informatique engagée"
+                 class="logo-img"
+                 src="https://cdn.prod.website-files.com/66b3bf6a4399565cefde681e/66b3cb8622ba822b73af8540_logo.svg">
+        </a>
+        <div class="header-wave"></div>
     </div>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-wave"></div>
-            <p>&copy; 2025 <a href="https://www.coda.school/" target="_blank">Coda</a> MATRIX v4.1.7 • THE SYSTEM IS WATCHING</p>
+</header>
+<main class="main">
+    <section class="symbols-section">
+        <div class="snow-container">
+            <div class="matrix-char" data-char="ﾊ"></div>
+            <div class="matrix-char" data-char="ﾐ"></div>
+            <div class="matrix-char" data-char="ｦ"></div>
+            <div class="matrix-char" data-char="ﾋ"></div>
+            <div class="matrix-char" data-char="ｰ"></div>
+            <div class="matrix-char" data-char="ｳ"></div>
+            <div class="matrix-char" data-char="ｼ"></div>
+            <div class="matrix-char" data-char="ﾅ"></div>
+            <div class="matrix-char" data-char="ﾓ"></div>
+            <div class="matrix-char" data-char="ﾆ"></div>
+            <div class="matrix-char" data-char="ｻ"></div>
+            <div class="matrix-char" data-char="ﾜ"></div>
+            <div class="matrix-char" data-char="ﾘ"></div>
+            <div class="matrix-char" data-char="Z"></div>
+            <div class="matrix-char" data-char="7"></div>
+            <div class="matrix-char" data-char="ｸ"></div>
+            <div class="matrix-char" data-char="3"></div>
+            <div class="matrix-char" data-char="ﾎ"></div>
+            <div class="matrix-char" data-char="8"></div>
+            <div class="matrix-char" data-char="ｾ"></div>
+            <div class="matrix-char" data-char="5"></div>
+            <div class="matrix-char" data-char="ﾉ"></div>
+            <div class="matrix-char" data-char="2"></div>
+            <div class="matrix-char" data-char="ｱ"></div>
         </div>
-    </footer>
-
+    </section>
+    <div class="container">
+        <section class="hero">
+            <h1 class="hero-title">Coda Security Gateway</h1>
+        </section>
+        <section>
+            <form id="password-form">
+                <input
+                        type="text"
+                        id="password-input"
+                        class="matrix-input"
+                        placeholder="Enter access password"
+                        autofocus
+                />
+                <div id="error-message" class="matrix-error-message">Access Denied. Security traces detected...</div>
+                <div id="success-message" class="matrix-success-message">Access Granted. Firewall penetration successful.</div>
+                <button type="submit" class="matrix-button">Verify Access</button>
+            </form>
+        </section>
+    </div>
+</main>
+<div id="portal-overlay" class="portal-hidden">
+    <div class="video-container">
+        <iframe
+                id="konami-video"
+                width="853"
+                height="480"
+                src=""
+                data-video-url="https://www.youtube.com/embed/yS0cqXiBZUo?autoplay=1&controls=1&rel=0&modestbranding=1"
+                title="Présentation de Coda"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-wave"></div>
+        <p>&copy; 2025 <a href="https://www.coda.school/" target="_blank">Coda</a> MATRIX v4.1.7 • THE SYSTEM IS WATCHING</p>
+    </div>
+</footer>
 <script type="module" src="main.js"></script>
 </body>
 </html>
